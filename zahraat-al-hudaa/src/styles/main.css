@@ -1,0 +1,44 @@
+.lang-btn {
+  margin-left: 20px;
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lang-btn:hover {
+  background: #f2f2f2;
+}
+
+body[dir="rtl"] {
+  text-align: right;
+}
+
+body[dir="rtl"] .nav-links a {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.whatsapp-button:hover {
+  background: #1ebc57;
+}
+
+
+body[dir="rtl"] .whatsapp-button {
+  right: auto;
+  left: 20px;
+}
